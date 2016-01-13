@@ -1,0 +1,14 @@
+{
+  "name": "fbquizbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Heidi Dong",
+  "dependencies": {
+    "facebook-chat-api": "~1.0.5",
+    "node-env-file": "~0.1.8"
+  },
+  "engines": {
+    "node": "0.12.2"
+  }
+}
