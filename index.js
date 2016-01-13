@@ -1,7 +1,13 @@
 var fbChat = require('facebook-chat-api');
 var fs = require('fs');
-var http = require('https');
+var http = require('http');
+var https = require('https');
 var env = require('node-env-file');
+
+http.createServer(function(req, res) {
+    res.writeHead(200, {"Content-Type": "text/plain"});
+    res.end('fbchatbot');
+}).listen(8000);
 
 env('.env');
 var USER_EMAIL = process.env.USER_EMAIL;
@@ -28,7 +34,7 @@ var quiz = {
         if (url.indexOf('quizlet.com') > -1) {
             var setId = url.match(/[0-9][0-9]*/)[0];
             var that = this;
-            return http.get('https://api.quizlet.com/2.0/sets/'+setId+'/terms?client_id='+QUIZLET_CLIENT_ID, function(res) {
+            return https.get('https://api.quizlet.com/2.0/sets/'+setId+'/terms?client_id='+QUIZLET_CLIENT_ID, function(res) {
                 res.on('data', function(d) {
                     that.data += d;
                 });
