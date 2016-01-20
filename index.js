@@ -7,7 +7,7 @@ var env = require('node-env-file');
 http.createServer(function(req, res) {
     res.writeHead(200, {"Content-Type": "text/plain"});
     res.end('fbchatbot');
-}).listen(8000);
+}).listen(process.env.PORT || 8000);
 
 env('.env');
 var USER_EMAIL = process.env.USER_EMAIL;
@@ -15,6 +15,7 @@ var USER_PASSWORD = process.env.USER_PASSWORD;
 var QUIZLET_CLIENT_ID = process.env.QUIZLET_CLIENT_ID;
  
 var bh = 100006427905044;
+var bc = 100000556551058;
 var simon = 1445476610;
 var soham = 100007492601505;
 var me = 100007470553567;
@@ -65,8 +66,8 @@ var quiz = {
         }
     },
     setRange: function(start, end) {
-        this.index = start || 0;
-        this.endIndex = end || this.data.length;
+        this.index = start;
+        this.endIndex = end;
         return this.endIndex - this.index;
     },
     score: function() {
@@ -90,7 +91,7 @@ var quiz = {
         }
     },
     next: function() {
-        if (this.index < this.data.length) {
+        if (this.index+1 < this.data.length) {
             return this.assembleItem(++this.index);
         }
         else {
@@ -116,9 +117,13 @@ var quiz = {
         }
     },
     assembleItem: function(i) {
-        // TODO: use shuffling algorithm
-        for (var j=0; j<this.numOptions; j++) {
-            choices[char(65+j)] = rand(0, this.data.length-1);
+        var indices = [i], n;
+        while (indices.length < this.numOptions + 1) {
+            n = rand(0, this.data.length-1);
+            if (indices.indexOf(n) < 0) {
+                choices[char(65+indices.length-1)] = n;
+                indices.push(n);
+            }
         }
         choices['correct'] = char(65+rand(0, this.numOptions-1));
         choices[choices['correct']] = i;
@@ -140,6 +145,7 @@ var quiz = {
 
 fbChat({email: USER_EMAIL, password: USER_PASSWORD}, function callback (err, api) {
     if (err) return console.error(err);
+
     var lastMsgId = '';
     api.listen(function(err, msg) {
         if (err) return console.error(err);
@@ -211,4 +217,14 @@ function char(i) {
 
 function rand(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function shuffle(arr) {
+    var j, temp;
+    for (var i=arr.length-1; i>1; i--) {
+        j = rand(0, i);
+        temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
 }

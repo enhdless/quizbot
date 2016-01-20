@@ -213,7 +213,7 @@
     },
     {
         "term": "laconic",
-        "definition": "using very few words"
+        "definition": "very brief, succinct"
     },
     {
         "term": "implacable",
@@ -233,7 +233,7 @@
     },
     {
         "term": "mellifluous",
-        "definition": "sweet or musical, pleasant to hear"
+        "definition": "smooth and sweet"
     },
     {
         "term": "abash",
@@ -250,5 +250,213 @@
     {
         "term": "sanctimonious",
         "definition": "making a show of being morally superior"
+    },
+    {
+        "term": "draconian",
+        "definition": "characterized by very strict laws, rules, and punishments"
+    },
+    {
+        "term": "spartan",
+        "definition": "plain, simple, austere"
+    },
+    {
+        "term": "halcyon",
+        "definition": "calm and peaceful, tranquility"
+    },
+    {
+        "term": "sophistry",
+        "definition": "a plausible but deliberately fallacious argument designed to deceive"
+    },
+    {
+        "term": "impecunious",
+        "definition": "poor, penniless"
+    },
+    {
+        "term": "dirge",
+        "definition": "funeral hymn, lugubrious musical composition"
+    },
+    {
+        "term": "maudlin",
+        "definition": "tearful, excessively sentimental"
+    },
+    {
+        "term": "quixotic",
+        "definition": "foolishly impractical in pursuit of ideals"
+    },
+    {
+        "term": "martinet",
+        "definition": "strict disciplinarian"
+    },
+    {
+        "term": "bowdlerize",
+        "definition": "to remove parts of a work that are considered offensive"
+    },
+    {
+        "term": "galvanize",
+        "definition": "to electrify"
+    },
+    {
+        "term": "picayune",
+        "definition": "small value or importance, petty, trifling"
+    },
+    {
+        "term": "maverick",
+        "definition": "independent nonconformist individual"
+    },
+    {
+        "term": "juggernaut",
+        "definition": "irresisible force that crushes everything in its path"
+    },
+    {
+        "term": "zenith",
+        "definition": "highest point"
+    },
+    {
+        "term": "nadir",
+        "definition": "lowest point"
+    },
+    {
+        "term": "expurgate",
+        "definition": "to take out, to delete"
+    },
+    {
+        "term": "extricate",
+        "definition": "to get out of a difficult situation"
+    },
+    {
+        "term": "repudiate",
+        "definition": "to take back, to disavow"
+    },
+    {
+        "term": "repugnant",
+        "definition": "abhorrent, offensive, causing distaste" 
+    },
+    {
+        "term": "decry",
+        "definition": "openly condemn, to express strong disapproval"
+    },
+    {
+        "term": "deride",
+        "definition": "to put down, to ridicule"
+    },
+    {
+        "term": "impeccable",
+        "definition": "flawless, perfect"
+    },
+    {
+        "term": "exonerate",
+        "definition": "to release someone form"
+    },
+    {
+        "term": "inexorable",
+        "definition": "incapable of being stopped, relentless"
+    },
+    {
+        "term": "insurmountable",
+        "definition": "cannot be overcome"
+    },
+    {
+        "term": "abstemious",
+        "definition": "filled with moderation, temperate"
+    },
+    {
+        "term": "precarious",
+        "definition": "uncertain, unstable"
+    },
+    {
+        "term": "frivolous",
+        "definition": "lacking "
+    },
+    {
+        "term": "pensive",
+        "definition": "reflecting in deep or serious thought, usually with melancholy"
+    },
+    {
+        "term": "prosaic",
+        "definition": "dull, commonplace"
+    },
+    {
+        "term": "vitriolic",
+        "definition": "bitter, caustic, acerbic"
+    },
+    {
+        "term": "conciliatory",
+        "definition": "appeasing, intending to placate"
+    },
+    {
+        "term": "assiduous",
+        "definition": "persistent, hardworking"
+    },
+    {
+        "term": "camaraderie",
+        "definition": "trust, sociability amongst friends"
+    },
+    {
+        "term": "extenuating",
+        "definition": "excusing, lessening seriousness of guilt or crime"
+    },
+    {
+        "term": "hackneyed",
+        "definition": "banal"
+    },
+    {
+        "term": "impute",
+        "definition": "to attribute an action to a particular person or group"
+    },
+    {
+        "term": "ostentatious",
+        "definition": "showy, displaying wealth"
+    },
+    {
+        "term": "prudent",
+        "definition": "careful, cautious"
+    },
+    {
+        "term": "querulous",
+        "definition": "complaining, irritable"
+    },
+    {
+        "term": "spurious",
+        "definition": "lacking authenticity, false"
+    },
+    {
+        "term": "transient",
+        "definition": "temporary, short-lived, fleeting"
+    },
+    {
+        "term": "flagrant",
+        "definition": "glaringly wrong, faulty"
+    },
+    {
+        "term": "indolence",
+        "definition": "laziness"
+    },
+    {
+        "term": "depravity",
+        "definition": "corruption, wickedness"
+    },
+    {
+        "term": "respite",
+        "definition": "a break; a rest"
+    },
+    {
+        "term": "euphonious",
+        "definition": "melodious, pleasant sounding"
+    },
+    {
+        "term": "cacophonous",
+        "definition": "harsh sounding"
+    },
+    {
+        "term": "philistine",
+        "definition": "one who lacks culture or taste"
+    },
+    {
+        "term": "scrupulous",
+        "definition": "concerned, conscientious, proper, diligent, thorough"
+    },
+    {
+        "term": "heretic",
+        "definition": "someone who goes against acceptable religious beliefs"
     }
 ]
