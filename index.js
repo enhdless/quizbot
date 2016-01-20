@@ -2,14 +2,12 @@ var fbChat = require('facebook-chat-api');
 var fs = require('fs');
 var http = require('http');
 var https = require('https');
-var env = require('node-env-file');
 
 http.createServer(function(req, res) {
     res.writeHead(200, {"Content-Type": "text/plain"});
     res.end('fbchatbot');
 }).listen(process.env.PORT || 8000);
 
-env('.env');
 var USER_EMAIL = process.env.USER_EMAIL;
 var USER_PASSWORD = process.env.USER_PASSWORD;
 var QUIZLET_CLIENT_ID = process.env.QUIZLET_CLIENT_ID;
