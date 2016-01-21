@@ -141,7 +141,7 @@ var quiz = {
     }
 }
 
-fbChat({email: USER_EMAIL, password: USER_PASSWORD}, function callback (err, api) {
+fbChat({email: USER_EMAIL, password: USER_PASSWORD}, {forceLogin: true}, function(err, api) {
     if (err) return console.error(err);
 
     var lastMsgId = '';
