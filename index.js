@@ -34,7 +34,7 @@ fbChat({email: USER_EMAIL, password: USER_PASSWORD}, {forceLogin: true}, functio
                     api.sendMessage(threads[msg.threadID].current(), msg.threadID);
             });
         }
-        else if (threads[msg.threadID].started) {
+        else if (threads[msg.threadID].started && msg.body.length == 1) {
             api.sendMessage(processResponse(msg.body, msg.threadID), msg.threadID, function(err, msgInfo) {
                 if (err) return console.error(err);
                 console.log(msgInfo);
@@ -72,13 +72,11 @@ function processCommand(cmd, threadID) {
 }
 
 function processResponse(msg, threadID) {
-    if (msg.length == 1) {
-        if (msg.toLowerCase() == threads[threadID].choices['correct'].toLowerCase()) {
-            return 'Correct. (y)';
-        }
-        else {
-            threads[threadID].missedTerms.push(threads[threadID].choices[threads[threadID].choices['correct']]);
-            return 'Incorrect. Correct answer is ' + threads[threadID].choices['correct'];
-        }
+    if (msg.toLowerCase() == threads[threadID].choices['correct'].toLowerCase()) {
+        return 'Correct. (y)';
+    }
+    else {
+        threads[threadID].missedTerms.push(threads[threadID].choices[threads[threadID].choices['correct']]);
+        return 'Incorrect. Correct answer is ' + threads[threadID].choices['correct'];
     }
 }
