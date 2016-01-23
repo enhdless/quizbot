@@ -1,5 +1,185 @@
 [
     {
+        "term": "ossify",
+        "definition": "be stagnant"
+    },
+    {
+        "term": "palpable",
+        "definition": "tangible",
+    },
+    {
+        "term": "egalitarian",
+        "definition": "one who favors equality for all people"
+    },
+    {
+        "term": "dowager",
+        "definition": "a widow with property from her husband"
+    },
+    {
+        "term": "purveyor",
+        "definition": "a person who sells particular goods"
+    },
+    {
+        "term": "tacit",
+        "definition": "implied"
+    },
+    {
+        "term": "seminal",
+        "definition": "strongly influencing later developments"
+    },
+    {
+        "term": "prognosticator",
+        "definition": "one who predicts from current situation"
+    },
+    {
+        "term": "proliferation",
+        "definition": "a great amount"
+    },
+    {
+        "term": "heterogeneous",
+        "definition": "different, unlike, incongruous"
+    },
+    {
+        "term": "motley",
+        "definition": "exhibiting great diversity of elements"
+    },
+    {
+        "term": "languid",
+        "definition": "lacking in vigor"
+    },
+    {
+        "term": "finagle",
+        "definition": "to trick, swindle, or cheat"
+    },
+    {
+        "term": "supplant",
+        "definition": "to replace by force"
+    },
+    {
+        "term": "winnow",
+        "definition": "to free from, to blow away"
+    },
+    {
+        "term": "truculence",
+        "definition": "fierce, cruel"
+    },
+    {
+        "term": "tribulation",
+        "definition": "grievous trouble"
+    },
+    {
+        "term": "reproach",
+        "definition": "disapproval"
+    },
+    {
+        "term": "reprehensible",
+        "definition": "deserving censure or condemnation"
+    },
+    {
+        "term": "modicum",
+        "definition": "a small quanity of something"        
+    },
+    {
+        "term": "surfeit",
+        "definition": "an excessive amount"
+    },
+    {
+        "term": "penirious",
+        "definition": "extremely poor"
+    },
+    {
+        "term": "conspicuous",
+        "definition": "standing out, attracting attention"
+    },
+    {
+        "term": "gubernatorial",
+        "definition": "relating to state governor"
+    },
+    {
+        "term": "furtive",
+        "definition": "attempting to avoid attention because guilt"
+    },
+    {
+        "term": "venality",
+        "definition": "susceptible to bribery"
+    },
+    {
+        "term": "exacerbate",
+        "definition": "make a problem worse"
+    },
+    {
+        "term": "lithe",
+        "definition": "thin, supple, and graceful"
+    },
+    {
+        "term": "procure",
+        "definition": "obtain something"
+    },
+    {
+        "term": "miffed",
+        "definition": "annoy"
+    },
+    {
+        "term": "flippant",
+        "definition": "not showing a serious or respectful attitude"
+    },
+    {
+        "term": "vapid",
+        "definition": "offering nothing that is stimulating or challenging"
+    },
+    {
+        "term": "sublime",
+        "definition": "of such excellence as to inspire great awe"
+    },
+    {
+        "term": "perniciousness",
+        "definition": "having a subtle, harmful effect"
+    },
+    {
+        "term": "plasticity",
+        "definition": "easily shaped or molded"
+    },
+    {
+        "term": "obsequious",
+        "definition": "obedient or attentative to an excessive degree"
+    },
+    {
+        "term": "maxim",
+        "definition": "a short, pithy statement expressing a general truth"
+    },
+    {
+        "term": "coterie",
+        "definition": "a small group of people with shared interests"
+    },
+    {
+        "term": "sycophant",
+        "definition": "a servile flatterer"
+    },
+    {
+        "term": "skullduggery",
+        "definition": "dishonest, unscrupulous behavior"
+    },
+    {
+        "term": "juggernaut",
+        "definition": "a massive, unstoppable force"
+    },
+    {
+        "term": "scintillating",
+        "definition": "brilliantly lively, stimulating, witty"
+    },
+    {
+        "term": "jingoist",
+        "definition": "a belligerent patriot, a warmonger"
+    },
+    {
+        "term": "calumny",
+        "definition": "a slanderous statement to hurt another's reputation"
+    },
+    {
+        "term": "ennui",
+        "definition": "bored"
+    },
+    {
         "term": "rambunctious",
         "definition": "uncontrollably exuberant; boisterous"
     },
